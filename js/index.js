@@ -1,5 +1,5 @@
 
-fetch('https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m,rain')
+fetch('https://api.open-meteo.com/v1/forecast?latitude=27.4467&longitude=-80.3256&hourly=temperature_2m,rain&temperature_unit=fahrenheit')
   .then(response => {
     if (!response.ok) {
       throw new Error('Request failed');
