@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(75, 166, 241);
+}
+#code-info ul li{
+    display: inline-flex ;
+    /* flex-direction: column; */
+    background-color: aliceblue;
+    border-radius: 0.8em;
+    padding: 0.5em;
+    border-style: solid;
+}
+#temp-info ul li{
+    display: inline-flex;
+    /* flex-direction: column; */
+    background-color: aliceblue;
+    border-radius: 0.8em;
+    padding: 0.5em;
+    border-style: solid;
+}
