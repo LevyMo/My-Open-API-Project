@@ -1,5 +1,5 @@
 // fetch weather conditions data for the day
-fetch('https://api.open-meteo.com/v1/forecast?latitude=27.4467&longitude=-80.3256&hourly=weather_code&forecast_days=1')
+fetch('https://api.open-meteo.com/v1/forecast?latitude=25.7743&longitude=-80.1937&hourly=weather_code&temperature_unit=fahrenheit&forecast_days=1')
   .then(response => {
     if (!response.ok) {
       throw new Error('Request failed');
@@ -61,7 +61,7 @@ function getWeatherCondition(weatherCode) {
   return conditionText;
 };
 // fetch temp data for the day
-fetch('https://api.open-meteo.com/v1/forecast?latitude=27.4467&longitude=-80.3256&hourly=temperature_2m&temperature_unit=fahrenheit&forecast_days=1')
+fetch('https://api.open-meteo.com/v1/forecast?latitude=25.7743&longitude=-80.1937&hourly=temperature_2m&temperature_unit=fahrenheit&forecast_days=1')
 .then(response => {
   if (!response.ok) {
     throw new Error('Request failed');
