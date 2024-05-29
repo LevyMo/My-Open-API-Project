@@ -19,12 +19,12 @@ body{
     border-style: solid;
 }
 #code-info{
-    width: 300px;
+    width: 350px;
     height: 0px;
     text-align: center;
 }
 #temp-info{
-    width: 350px;
+    width: 300px;
     position: relative;
     bottom: 21px;
     position: relative;
